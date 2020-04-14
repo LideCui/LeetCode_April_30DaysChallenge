@@ -1,13 +1,13 @@
 package com.company;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Main {
 
-        public static void main(String[] args){
-
-        }
+    public static void main(String[] args) {
+        int[] stones = {0,1};
+        System.out.println(" max =" + new FindMaxLength().solution(stones));
+    }
 
     public static String sortWord(String str){
         char[] temp = str.toCharArray();
