@@ -5,9 +5,9 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4};
-       //System.out.println(" result =" + new ProductExceptSeft().productExceptSelf(nums));
-        printArray(new ProductExceptSeft().productExceptSelf(nums));
+        String str = "(**))";
+       System.out.println(" result = " + new ValidParenthesisString().checkValidString(str));
+        //printArray(new ProductExceptSeft().productExceptSelf(nums));
     }
 
     public static String sortWord(String str){
