@@ -5,8 +5,9 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        int[] stones = {0,1};
-        System.out.println(" max =" + new FindMaxLength().solution(stones));
+        int[] nums = {1,2,3,4};
+       //System.out.println(" result =" + new ProductExceptSeft().productExceptSelf(nums));
+        printArray(new ProductExceptSeft().productExceptSelf(nums));
     }
 
     public static String sortWord(String str){
@@ -27,7 +28,7 @@ public class Main {
         System.out.println("]");
     }
 
-    public static void printArray(Object[] nums){
+    public static void printArray(int[] nums){
         System.out.printf("\n*********** Start *********\n");
         for(int i=0; i<nums.length;i++){
             System.out.print(" " + nums[i]);
