@@ -167,11 +167,11 @@ public class LastStoneWeight {
 //    }
 
 
-    public static void main(String[] args) {
-        int[] stones = {10,4,2,10};
-
-        System.out.println(new LastStoneWeight().lastStoneWeight(stones));
-    }
+//    public static void main(String[] args) {
+//        int[] stones = {10,4,2,10};
+//
+//        System.out.println(new LastStoneWeight().lastStoneWeight(stones));
+//    }
 }
 
 /*

@@ -5,8 +5,12 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        String str = "(**))";
-       System.out.println(" result = " + new ValidParenthesisString().checkValidString(str));
+        char[][] grid = {{1,1,0,0,0},
+                {11000},
+                {00100},
+                {00011}};
+        int k = Integer.MAX_VALUE+1;
+       System.out.println(" result = " + k);
         //printArray(new ProductExceptSeft().productExceptSelf(nums));
     }
 

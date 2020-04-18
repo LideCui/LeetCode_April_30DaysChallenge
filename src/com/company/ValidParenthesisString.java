@@ -46,6 +46,17 @@ public class ValidParenthesisString {
 
         return true;
     }
+
+    public boolean checkValidString2(String s) {
+        int lo = 0, hi = 0;
+        for (char c: s.toCharArray()) {
+            lo += c == '(' ? 1 : -1;
+            hi += c != ')' ? 1 : -1;
+            if (hi < 0) break;
+            lo = Math.max(lo, 0);
+        }
+        return lo == 0;
+    }
 }
 /*
  * At first I got it wrong for ignoring "*(" solution
