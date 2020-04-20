@@ -20,7 +20,7 @@ public class MinimumPathSum {
         int m=grid.length;
         int n=grid[0].length;
 
-        int[][] tb = new int[m][n];
+        int[][] tb = grid.clone();
         //tb[0][0] = grid[0][0];
         for(int i=0; i<m;i++){
             for(int j=0; j<n; j++){
